@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dissappearing Image</title>
+    <script>
+        function byeBye(){
+        var image = document.getElementById("meme");
+        image.style.display = "none";
+
+        var surpriseImage= document.getElementById("surprise")
+            surpriseImage.style.display="block";
+        }
+    </script>
+</head>
+<body>
+<button type="button" onClick="byeBye()">Click for a surpise!</button>
+<img id="meme" src="I M A G E/YEETOHAW.jpg" width="200" />
+<img id="surprise" src="I M A G E/WORK.jpg" style="display:none" />
+</body>
+</html>
