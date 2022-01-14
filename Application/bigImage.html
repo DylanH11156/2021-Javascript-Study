@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Large</title>
+    <script>
+        function showButton(){
+            var btn= document.getElementById("btn")
+            btn.style.display="block";
+        }
+        function bigImg(){
+            var img = document.getElementById("image");
+            img.style.width= "100%";
+        }
+    </script>
+</head>
+<body>
+<img src="../Application/I M A G E/WHOLESOME.jfif" id="image" width="100"/>
+<div style="background:cyan" id="text" onClick="showButton()">Some Text</div>
+<button id="btn" style="display:none;" type="button" onmouseover="bigImg()">Wanna see a trick?</button>
+</body>
+</html>
